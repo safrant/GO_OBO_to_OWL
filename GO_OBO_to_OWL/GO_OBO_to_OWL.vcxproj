@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{042BDA59-1780-4C5C-8CD8-4F0AF14BE2CE}</ProjectGuid>
+    <RootNamespace>GO_OBO_to_OWL</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\Workspaces\VisualC\GO_OBO_to_OWL\GO_OBO_to_OWL;C:\bin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>C:/bin/xerces-c_3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="baseTemplate.h" />
+    <ClInclude Include="fullSyn.h" />
+    <ClInclude Include="fullSynConst.h" />
+    <ClInclude Include="OBO2TDE.h" />
+    <ClInclude Include="OBO2TDE2.h" />
+    <ClInclude Include="OBOtoOWL.h" />
+    <ClInclude Include="OntylogHandler.h" />
+    <ClInclude Include="OntyxAssociation.h" />
+    <ClInclude Include="OntyxAssociationDef.h" />
+    <ClInclude Include="OntyxConcept.h" />
+    <ClInclude Include="OntyxKb.h" />
+    <ClInclude Include="OntyxKBQA.h" />
+    <ClInclude Include="OntyxKind.h" />
+    <ClInclude Include="OntyxName.h" />
+    <ClInclude Include="OntyxProperty.h" />
+    <ClInclude Include="OntyxPropertyDef.h" />
+    <ClInclude Include="OntyxQualifier.h" />
+    <ClInclude Include="OntyxQualifierDef.h" />
+    <ClInclude Include="OntyxRole.h" />
+    <ClInclude Include="OntyxRoleDef.h" />
+    <ClInclude Include="OntyxRoleEnum.h" />
+    <ClInclude Include="OntyxTerminology.h" />
+    <ClInclude Include="ontyxToOWL.h" />
+    <ClInclude Include="porterExtern.h" />
+    <ClInclude Include="tString.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Workspace\KBProcessing\OntyxProcessing\nciOBOtoOWL\nciOBOtoOWL.cpp" />
+    <ClCompile Include="fullSyn.cpp" />
+    <ClCompile Include="nciOBOtoOWL.cpp" />
+    <ClCompile Include="OBO2TDE.cpp" />
+    <ClCompile Include="OBO2TDE2.cpp" />
+    <ClCompile Include="OBOtoOWL.cpp" />
+    <ClCompile Include="OntylogHandler.cpp" />
+    <ClCompile Include="OntyxAssociation.cpp" />
+    <ClCompile Include="OntyxAssociationDef.cpp" />
+    <ClCompile Include="OntyxConcept.cpp" />
+    <ClCompile Include="OntyxKb.cpp" />
+    <ClCompile Include="OntyxKBQA.cpp" />
+    <ClCompile Include="OntyxKind.cpp" />
+    <ClCompile Include="OntyxName.cpp" />
+    <ClCompile Include="OntyxProperty.cpp" />
+    <ClCompile Include="OntyxPropertyDef.cpp" />
+    <ClCompile Include="OntyxQualifier.cpp" />
+    <ClCompile Include="OntyxQualifierDef.cpp" />
+    <ClCompile Include="OntyxRole.cpp" />
+    <ClCompile Include="OntyxRoleDef.cpp" />
+    <ClCompile Include="OntyxRoleEnum.cpp" />
+    <ClCompile Include="OntyxTerminology.cpp" />
+    <ClCompile Include="ontyxToOWL.cpp" />
+    <ClCompile Include="porterExtern.c" />
+    <ClCompile Include="tString.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="c:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\algorithm" />
+    <None Include="header.owl" />
+    <None Include="headerCode.owl" />
+    <None Include="tagheader.dat" />
+    <None Include="template.dat" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

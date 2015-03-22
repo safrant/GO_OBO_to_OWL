@@ -1,0 +1,69 @@
+﻿Build started 15/03/19 6:03:13 PM.
+     1>Project "D:\Workspaces\VisualC\GO_OBO_to_OWL\GO_OBO_to_OWL\GO_OBO_to_OWL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Workspaces\VisualC\GO_OBO_to_OWL\GO_OBO_to_OWL /IC:\bin /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ontyxToOWL.cpp
+         ontyxToOWL.cpp
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(88): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(89): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(93): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(95): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(96): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(99): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(100): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(104): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(107): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(108): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+     1>d:\workspaces\visualc\go_obo_to_owl\go_obo_to_owl\ontyxtoowl.cpp(109): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115) : see declaration of 'strcat'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspaces\VisualC\GO_OBO_to_OWL\Debug\GO_OBO_to_OWL.exe" /INCREMENTAL /NOLOGO "C:/bin/xerces-c_3.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Workspaces\VisualC\GO_OBO_to_OWL\Debug\GO_OBO_to_OWL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Workspaces\VisualC\GO_OBO_to_OWL\Debug\GO_OBO_to_OWL.lib" /MACHINE:X86 Debug\nciOBOtoOWL.obj
+         Debug\fullSyn.obj
+         Debug\nciOBOtoOWL.obj
+         Debug\OBO2TDE.obj
+         Debug\OBO2TDE2.obj
+         Debug\OBOtoOWL.obj
+         Debug\OntylogHandler.obj
+         Debug\OntyxAssociation.obj
+         Debug\OntyxAssociationDef.obj
+         Debug\OntyxConcept.obj
+         Debug\OntyxKb.obj
+         Debug\OntyxKBQA.obj
+         Debug\OntyxKind.obj
+         Debug\OntyxName.obj
+         Debug\OntyxProperty.obj
+         Debug\OntyxPropertyDef.obj
+         Debug\OntyxQualifier.obj
+         Debug\OntyxQualifierDef.obj
+         Debug\OntyxRole.obj
+         Debug\OntyxRoleDef.obj
+         Debug\OntyxRoleEnum.obj
+         Debug\OntyxTerminology.obj
+         Debug\ontyxToOWL.obj
+         Debug\porterExtern.obj
+         Debug\tString.obj
+     1>Debug\nciOBOtoOWL.obj : warning LNK4042: object specified more than once; extras ignored
+     1>ontyxToOWL.obj : error LNK2019: unresolved external symbol "public: int __thiscall ontyxToOWL::otoo_Notmain(int,char const * * const)" (?otoo_Notmain@ontyxToOWL@@QAEHHQAPBD@Z) referenced in function "public: __thiscall ontyxToOWL::ontyxToOWL(int,char const * * const)" (??0ontyxToOWL@@QAE@HQAPBD@Z)
+     1>D:\Workspaces\VisualC\GO_OBO_to_OWL\Debug\GO_OBO_to_OWL.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "D:\Workspaces\VisualC\GO_OBO_to_OWL\GO_OBO_to_OWL\GO_OBO_to_OWL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.04
